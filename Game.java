@@ -74,6 +74,7 @@ public class Game {
     static void adventure(){ // 玩家选择冒险
         int num1 = new Random().nextInt(4)+1;
         int num2 = new Random().nextInt(3)+1;
+        //可获得多种食物
         switch(num1){
             case 1:
                 boolean tag = false;
