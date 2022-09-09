@@ -125,6 +125,7 @@ public class Game {
                         materialAvailable = true; break;
                     }
                 }
+                break;
             case 2:
                 for(Item item : player.inventory){
                     if(item instanceof Diamond && ((Diamond)item).count>=10){
@@ -134,6 +135,7 @@ public class Game {
                         materialAvailable = true; break;
                     }
                 }
+                break;
             case 3:
                 for(Item item : player.inventory){
                     if(item instanceof Netherite && ((Netherite)item).count>=10){
